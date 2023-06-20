@@ -37,6 +37,6 @@ public class CalculatorController {
         if (b==0){
            return  "Делить на ноль нельзя";
         }
-        return a + " / " + b + " = " + calculator.divide(a, b);
+        return a + " / " + b + " =  " + calculator.divide(a, b);
     }
 }
